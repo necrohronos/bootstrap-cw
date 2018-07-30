@@ -49,11 +49,15 @@ nav {
     margin-left: 50%;
     transform: translateX(-50%)
 }
+#site-title h1, #site-title h2{
+    margin-bottom: 40px;
+}
 #navbarNav {
     justify-content: flex-end;
 }
 section {
     min-height: 100vh;
+    padding-top: 30px;
 }
 section p:first-of-type {
     margin-bottom: 35px;
@@ -122,14 +126,19 @@ section p:first-of-type {
 .portfolio-mask:hover {
     opacity: 1;
 }
+.team-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap
+    justify-content: center;
+}
 .team-image img {
 /*    width: 80%;*/
     border-radius: 50%;
 }
 .team-social {
-    display: inline;
+   
     text-align: center;
-    margin: 0 auto;
 }
 .team-social i {
     width: 50px;

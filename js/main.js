@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $(window).scroll(function () addScrolled());
+  /*  $(window).scroll(function () addScrolled());
 
     function addScrolled() {
         if ($(window).scrollTop() > $('#main-nav').outerHeight()) {
@@ -8,5 +8,15 @@ $(document).ready(function () {
             $('#main-nav').removeClass('nav-scrolled')
         }
 
+    } */
+    var a = $("#main-nav").offset().top;
+
+$(document).scroll(function(){
+    if($(this).scrollTop() > a)
+    {   
+       $('#main-nav').css({"background":"rgba(14, 216, 214, 0.74)"});
+    } else {
+       $('#main-nav').css({"background":"transparent"});
     }
-})
+});
+    });
