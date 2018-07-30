@@ -13,18 +13,13 @@
 </head>
 <body>
 <div id="#container" class="container-fluid">
-    <div id="header"><div id="header-mask">
-      
-        <nav class="navbar navbar-expand-lg navbar-dark txt-white">
+    <div class="fixed-top"><nav id="main-nav" class="navbar navbar-expand-lg navbar-dark txt-white ">
   <a class="navbar-brand italic" href="#">Bootstrap Project</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
       <li class="nav-item">
         <a class="nav-link" href="#services">SERVICES</a>
       </li>
@@ -39,11 +34,13 @@
       </li>
     </ul>
   </div>
-</nav>
-         <header id="site-title" class="w-75 p-3 mx-auto"><h2 class="text-center txt-white italic display-4">Num libero tempore</h2>
+        </nav></div>
+         
+     <div id="header">
+      
+        <header id="site-title" class="w-75 p-3 mx-auto"><h2 class="text-center txt-white italic display-4">Num libero tempore</h2>
             <h1 class="text-center txt-white header-title display-3">LOREM IPSUM DOLOR</h1>
-            <a href="#services" ><button class="btn btn-info btn-header">VIEW MORE</button></a></header>
-    </div>
+            <a href="#services-end" ><button class="btn btn-info btn-header">VIEW MORE</button></a></header>
     </div>
 <!--    SERVICES-->
 <section id="services">
@@ -52,6 +49,7 @@
     <div class="container"><div class="row">
         <div id="service1" class="col-md-4">
             <div class="service-item">
+<!--               można zrobić background dla ikony-->
                 <div class="service-icon text-center txt-white"><i class="fas fa-briefcase fa-3x"></i></div>
                 <div class="service-content">
                     <h3 class="text-center">Web Development</h3>
@@ -80,7 +78,165 @@
         </div>
     </div>
     </div>
+    <span id="services-end"></span>
 </section>
+<!--PORTFOLIO-->
+<section id="portfolio">
+   <h2 class="text-center">PORTFOLIO</h2>
+   <p class="text-center italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, saepe!</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="portfolio-container">
+                    <div id="portfolio1" class="portfolio-image">
+                        <div class="portfolio-mask"><i class="fas fa-5x fa-plus"></i></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="text-center">Earum Rerum Hic</h3>
+                        <p class="italic">Temporibus autem quibusdam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="portfolio-container">
+                    <div id="portfolio2" class="portfolio-image">
+                        <div class="portfolio-mask"><i class="fas fa-5x fa-plus"></i></div>
+                    </div>
+                    <div class="portfolio-content">
+                       <h3 class="text-center">Earum Rerum Hic</h3>
+                        <p class="italic">Temporibus autem quibusdam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="portfolio-container">
+                    <div id="portfolio3" class="portfolio-image">
+                        <div class="portfolio-mask"><i class="fas fa-5x fa-plus"></i></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="text-center">Earum Rerum Hic</h3>
+                        <p class="italic">Temporibus autem quibusdam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="portfolio-container">
+                    <div id="portfolio4" class="portfolio-image">
+                        <div class="portfolio-mask"><i class="fas fa-5x fa-plus"></i></div>
+                    </div>
+                    <div class="portfolio-content">
+                       <h3 class="text-center">Earum Rerum Hic</h3>
+                        <p class="italic">Temporibus autem quibusdam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="portfolio-container">
+                    <div id="portfolio5" class="portfolio-image">
+                        <div class="portfolio-mask"><i class="fas fa-5x fa-plus"></i></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="text-center">Earum Rerum Hic</h3>
+                        <p class="italic">Temporibus autem quibusdam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="portfolio-container">
+                    <div id="portfolio6" class="portfolio-image">
+                        <div class="portfolio-mask"><i class="fas fa-5x fa-plus"></i></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="text-center">Earum Rerum Hic</h3>
+                        <p class="italic">Temporibus autem quibusdam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="a-team">
+    <h3 class="text-center"></h3>
+    <p class="text-center italic"></p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="team-container">
+                    <div id="temmate1" class="team-image"><img src="img/team/man-1.jpg" alt=""></div>
+                    <div class="team-content">
+                        <h3 class="text-center">Eric Stern</h3>
+                        <p class="text-center">Acount Menager</p>
+                        <div class="team-social"><a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-container">
+                    <div id="temmate2" class="team-image"><img src="img/team/man-2.jpg" alt=""></div>
+                    <div class="team-content">
+                        <h3 class="text-center">Martin Muller</h3>
+                        <p class="text-center">Developer</p>
+                        <div class="team-social"><a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-container">
+                    <div id="temmate3" class="team-image"><img src="img/team/woman-1.jpg" alt=""></div>
+                    <div class="team-content">
+                        <h3 class="text-center">Anna Smith</h3>
+                        <p class="text-center">Project Menager</p>
+                        <div class="team-social"><a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut voluptatibus corporis cupiditate maxime accusamus eligendi odio officiis suscipit consequatur quasi atque, molestias totam similique, fugiat eaque nobis optio facilis veritatis.</p>
+</section>
+<section id="contact">
+   <h2 class="text-center txt-white">CONTACT US</h2>
+   <p class="text-center italic txt-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, sed.</p>
+    <form action="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"><input type="text" class="form-control form-control-lg" placeholder="YOUR NAME*" >
+                <input type="text" class="form-control form-control-lg" placeholder="YOUR E-MAIL*">
+                <input type="text" class="form-control form-control-lg" placeholder="YOUR PHONE*"></div>
+                <div class="col-md-6"><textarea name="" id="" class="form-control" placeholder="YOUR MESSAGE*"></textarea></div>
+            </div>
+        </div>
+        <input class="btn btn-lg" type="submit" value="SEND MESSAGE">
+    </form>
+</section>
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div id="footer1"><p class="mx-auto">Copyright &copy; Państwowa Wytwórnia Wytworów</p></div>
+            </div>
+            <div class="col-md-4">
+                <div id="footer2" class="team-social"><a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a></div>
+            </div>
+            <div class="col-md-4">
+                <div id="footer3" class="navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="" class="nav-link"></a></li>
+                        <li class="nav-item"><a href="" class="nav-link"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </div>
     <!--  SCRIPTS-->
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>     

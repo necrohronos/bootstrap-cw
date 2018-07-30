@@ -1,6 +1,12 @@
-$(document).ready(function(){
-    $('#carouselExampleIndicators').carousel({
-        "interval": 10,
-        "pause": false,
-    });
+$(document).ready(function () {
+    $(window).scroll(function () addScrolled());
+
+    function addScrolled() {
+        if ($(window).scrollTop() > $('#main-nav').outerHeight()) {
+            $('#main-nav').addClass('nav-scrolled')
+        } else {
+            $('#main-nav').removeClass('nav-scrolled')
+        }
+
+    }
 })
