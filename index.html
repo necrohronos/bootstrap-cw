@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div id="#container" class="container-fluid">
-    <div class="fixed-top"><nav id="main-nav" class="navbar navbar-expand-lg navbar-dark txt-white ">
+<!--<div id="#container" class="container-fluid">-->
+<!--   NAWIGACJA-->
+<nav id="main-nav" class="navbar navbar-expand-lg navbar-dark txt-white fixed-top">
   <a class="navbar-brand italic" href="#">Bootstrap Project</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -34,13 +35,13 @@
       </li>
     </ul>
   </div>
-        </nav></div>
-         
+        </nav>
+<!--                             <HEADER>        -->
      <div id="header">
       
-        <header id="site-title" class="w-75 p-3 mx-auto"><h2 class="text-center txt-white italic display-4">Num libero tempore</h2>
+        <header id="site-title"><h2 class="text-center txt-white italic display-4">Num libero tempore</h2>
             <h1 class="text-center txt-white header-title display-3">LOREM IPSUM DOLOR</h1>
-            <a href="#services-end" ><button class="btn btn-info btn-header btn-lg">VIEW MORE</button></a></header>
+            <a href="#services" ><button class="btn btn-info btn-header btn-lg">VIEW MORE</button></a></header>
     </div>
 <!--    SERVICES-->
 <section id="services">
@@ -88,9 +89,9 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="portfolio-container">
-                    <div id="portfolio1" class="portfolio-image">
+                    <div class="portfolio-overflow"><div id="portfolio1" class="portfolio-image">
                         <div class="portfolio-mask"><i class="fas fa-5x fa-plus"></i></div>
-                    </div>
+                        </div></div>
                     <div class="portfolio-content">
                         <h3 class="text-center">Earum Rerum Hic</h3>
                         <p class="italic">Temporibus autem quibusdam</p>
@@ -98,10 +99,10 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="portfolio-container">
+                <div class="portfolio-container"><div class="portfolio-overflow">
                     <div id="portfolio2" class="portfolio-image">
                         <div class="portfolio-mask"><i class="fas fa-5x fa-plus"></i></div>
-                    </div>
+                    </div></div>
                     <div class="portfolio-content">
                        <h3 class="text-center">Earum Rerum Hic</h3>
                         <p class="italic">Temporibus autem quibusdam</p>
@@ -109,10 +110,10 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="portfolio-container">
+                <div class="portfolio-container"><div class="portfolio-overflow">
                     <div id="portfolio3" class="portfolio-image">
                         <div class="portfolio-mask"><i class="fas fa-5x fa-plus"></i></div>
-                    </div>
+                    </div></div>
                     <div class="portfolio-content">
                         <h3 class="text-center">Earum Rerum Hic</h3>
                         <p class="italic">Temporibus autem quibusdam</p>
@@ -120,10 +121,10 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="portfolio-container">
+                <div class="portfolio-container"><div class="portfolio-overflow">
                     <div id="portfolio4" class="portfolio-image">
                         <div class="portfolio-mask"><i class="fas fa-5x fa-plus"></i></div>
-                    </div>
+                    </div></div>
                     <div class="portfolio-content">
                        <h3 class="text-center">Earum Rerum Hic</h3>
                         <p class="italic">Temporibus autem quibusdam</p>
@@ -131,10 +132,10 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="portfolio-container">
+                <div class="portfolio-container"><div class="portfolio-overflow">
                     <div id="portfolio5" class="portfolio-image">
                         <div class="portfolio-mask"><i class="fas fa-5x fa-plus"></i></div>
-                    </div>
+                    </div></div>
                     <div class="portfolio-content">
                         <h3 class="text-center">Earum Rerum Hic</h3>
                         <p class="italic">Temporibus autem quibusdam</p>
@@ -142,10 +143,10 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="portfolio-container">
+                <div class="portfolio-container"><div class="portfolio-overflow">
                     <div id="portfolio6" class="portfolio-image">
                         <div class="portfolio-mask"><i class="fas fa-5x fa-plus"></i></div>
-                    </div>
+                    </div></div>
                     <div class="portfolio-content">
                         <h3 class="text-center">Earum Rerum Hic</h3>
                         <p class="italic">Temporibus autem quibusdam</p>
@@ -155,89 +156,103 @@
         </div>
     </div>
 </section>
-<section id="a-team">
-    <h3 class="text-center"></h3>
-    <p class="text-center italic"></p>
+<!--TEAM-->
+<section id="team">
+    <h2 class="text-center">OUR TEAM</h2>
+    <p class="text-center italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, placeat.</p>
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <figure class="col-md-4">
                 <div class="team-container">
-                    <div id="temmate1" class="team-image"><img src="img/team/man-1.jpg" alt=""></div>
-                    <div class="team-content">
+                    <div id="temmate1" class="team-image text-center"><img src="img/team/man-1.jpg"  class="img-fluid rounded-circle" alt=""></div>
+                    <figcaption>
                         <h3 class="text-center">Eric Stern</h3>
-                        <p class="text-center">Acount Menager</p>
+                        <p class="text-center">Acount Menager</p></figcaption>
                         <div class="team-social"><a href=""><i class="fab fa-facebook-f"></i></a>
                         <a href=""><i class="fab fa-twitter"></i></a>
                         <a href=""><i class="fab fa-linkedin-in"></i></a></div>
-                    </div>
+                    
                 </div>
-            </div>
-            <div class="col-md-4">
+            </figure>
+            <figure class="col-md-4">
                 <div class="team-container">
-                    <div id="temmate2" class="team-image"><img src="img/team/man-2.jpg" alt=""></div>
-                    <div class="team-content">
+                    <div id="temmate2" class="team-image text-center"><img src="img/team/man-2.jpg"  class="img-fluid rounded-circle" alt=""></div>
+                    <figcaption>
                         <h3 class="text-center">Martin Muller</h3>
-                        <p class="text-center">Developer</p>
+                        <p class="text-center">Developer</p></figcaption>
                         <div class="team-social"><a href=""><i class="fab fa-facebook-f"></i></a>
                         <a href=""><i class="fab fa-twitter"></i></a>
                         <a href=""><i class="fab fa-linkedin-in"></i></a></div>
-                    </div>
+                    
                 </div>
-            </div>
-            <div class="col-md-4">
+            </figure>
+            <figure class="col-md-4">
                 <div class="team-container">
-                    <div id="temmate3" class="team-image"><img src="img/team/woman-1.jpg" alt=""></div>
-                    <div class="team-content">
+                    <div id="temmate3" class="team-image text-center"><img src="img/team/woman-1.jpg" class="img-fluid rounded-circle" alt=""></div>
+                    <figcaption>
                         <h3 class="text-center">Anna Smith</h3>
-                        <p class="text-center">Project Menager</p>
+                        <p class="text-center">Project Menager</p></figcaption>
                         <div class="team-social"><a href=""><i class="fab fa-facebook-f"></i></a>
                         <a href=""><i class="fab fa-twitter"></i></a>
                         <a href=""><i class="fab fa-linkedin-in"></i></a></div>
-                    </div>
+                    
                 </div>
-            </div>
+            </figure>
         </div>
     </div>
     <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut voluptatibus corporis cupiditate maxime accusamus eligendi odio officiis suscipit consequatur quasi atque, molestias totam similique, fugiat eaque nobis optio facilis veritatis.</p>
 </section>
+<!--CONTACT-->
 <section id="contact">
    <h2 class="text-center txt-white">CONTACT US</h2>
    <p class="text-center italic txt-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, sed.</p>
-    <form action="">
+    
         <div class="container">
-            <div class="row">
-                <div class="col-md-6"><input type="text" class="form-control form-control-lg" placeholder="YOUR NAME*" >
+            <form class="row">
+                <div class="col-md-6 form-col mb-10"><input type="text" class="form-control form-control-lg" placeholder="YOUR NAME*" >
                 <input type="text" class="form-control form-control-lg" placeholder="YOUR E-MAIL*">
                 <input type="text" class="form-control form-control-lg" placeholder="YOUR PHONE*"></div>
-                <div class="col-md-6"><textarea name="" id="" class="form-control" placeholder="YOUR MESSAGE*"></textarea></div>
-            </div>
+                <div class="col-md-6 mb-10"><textarea name="" id="" class="form-control" placeholder="YOUR MESSAGE*"></textarea></div>
+                <div class="col-md-12"><input class="btn btn-info btn-header btn-lg" type="submit" value="SEND MESSAGE"></div>
+            </form>
         </div>
-        <input class="btn btn-lg" type="submit" value="SEND MESSAGE">
-    </form>
+        
+    
 </section>
+<!--FOOTER-->
 <footer id="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <div id="footer1"><p class="mx-auto">Copyright &copy; Państwowa Wytwórnia Wytworów</p></div>
+            <div class="col-md-4 line-height">
+                <div id="footer1"><p>Copyright &copy; Państwowa Wytwórnia Wytworów</p></div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 line-height">
                 <div id="footer2" class="team-social mx-auto"><a href=""><i class="fab fa-facebook-f"></i></a>
                         <a href=""><i class="fab fa-twitter"></i></a>
                         <a href=""><i class="fab fa-linkedin-in"></i></a></div>
             </div>
-            <div class="col-md-4">
-                <div id="footer3" class="navbar collapse navbar-collapse">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a href="" class="nav-link">Privacy Policy</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Terms of use</a></li>
-                    </ul>
-                </div>
+            <div id="footer3" class="col-md-4 line-height">
+<!--
+                <nav class="navbar navbar-expand-sm navbar-light">
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Privacy Policy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Terms to Use</a>
+      </li>
+    </ul>
+  </div>
+-->
+  <nav><ul>
+      <li><a href="">Privacy Policy</a></li>
+      <li><a href="">Terms of use</a></li></ul>
+  </nav>
             </div>
         </div>
     </div>
 </footer>
-</div>
     <!--  SCRIPTS-->
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>     
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script> 
